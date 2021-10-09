@@ -1,0 +1,29 @@
+body{
+    background-color: #111;;
+}
+.pai{
+    width: 100vw;
+    height: 100px;
+    background-color: orangered;
+}
+.filho{
+    width: 100px;
+    height: 100px;
+    background-color:#305010;
+    /* transition:  */
+    transition-property: transform;
+    transition-duration: 20s;
+}
+.pai:hover .filho{
+    transform: translateX(1141.82px);
+    transition-timing-function: linear;
+}
+.btn:hover{
+    background-color: #fff;
+    width: 160px;
+    height: 30px;
+    color: #03fdd6;
+    border: none;
+    transition: all;
+    transition-duration: .7s;
+}
